@@ -9,6 +9,7 @@ library(ranger)
 library(broom)
 library(furrr)
 library(cvAUC)
+library(pdp)
 library(slider);
 
 dat_joined <- readRDS("dat_afe.RDS") # loads data file with clean data and weather information included and etiology defined 
